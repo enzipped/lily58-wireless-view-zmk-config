@@ -25,7 +25,7 @@
 &trans        &trans  &trans  &trans  &trans        &trans                                  &trans     &trans    &trans     &trans   &trans         &trans
 &kp TAB       &kp Q   &kp W   &kp F   &kp P         &kp B                                   &kp J      &kp L     &kp U      &kp Y    &kp SEMICOLON  &kp MINUS
 &kp ESC       &kp A   &kp R   &kp S   &kp T         &kp G                                   &kp M      &kp N     &kp E      &kp I    &kp O          &kp SQT
-&kp LEFT_WIN  &kp Z   &kp X   &kp C   &kp D         &kp V      &kp LBKT          &kp RBKT   &kp K      &kp H     &kp COMMA  &kp DOT  &kp FSLH       &kp RSHFT
+&kp LEFT_WIN  &kp Z   &kp X   &kp C   &kp D         &kp V      &kp LBKT          &kp RBKT   &kp K      &kp H     &kp COMMA  &kp DOT  &kp FSLH       &kp EXCLAMATION
                               &tog 2  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT    &kp ENTER  &kp SPACE  &kp BSPC  &tog 4
             >;
 
@@ -72,11 +72,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans     &trans     &trans     &trans  &trans                               &trans  &trans          &trans          &trans           &trans         &trans
-&trans  &trans     &trans     &trans     &trans  &trans                               &trans  &trans          &kp UP_ARROW    &trans           &kp PAGE_UP    &trans
-&trans  &trans     &trans     &trans     &trans  &trans                               &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &trans  &kp LC(V)  &trans            &trans  &trans  &trans          &trans          &trans           &trans         &trans
-                              &trans     &trans  &trans     &kp LEFT_SHIFT    &trans  &trans  &trans          &tog 0
+&bt BT_CLR_ALL  &trans  &trans   &bt BT_CLR_ALL  &trans        &trans                               &trans  &trans          &trans          &trans           &trans         &trans
+&kp TAB         &kp F1  &kp F2   &kp F2          &kp F4        &trans                               &trans  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &trans
+&trans          &kp F5  &kp F6   &kp F7          &kp F8        &trans                               &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &trans
+&trans          &kp F9  &kp F10  &kp F11         &kp F12       &trans  &trans            &trans     &trans  &kp DELETE      &trans          &trans           &trans         &trans
+                                 &trans          &kp LEFT_ALT  &trans  &kp LEFT_SHIFT    &kp ENTER  &trans  &kp BACKSPACE   &tog 0
             >;
         };
 
