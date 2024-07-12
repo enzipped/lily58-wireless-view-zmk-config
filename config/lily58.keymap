@@ -9,6 +9,35 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        HRbase {
+            bindings = <&to 0>;
+            key-positions = <27 28>;
+        };
+
+        HRgaming {
+            bindings = <&to 4>;
+            key-positions = <28 27 26>;
+        };
+
+        HRnum {
+            bindings = <&to 2>;
+            key-positions = <31 32>;
+        };
+
+        HRnav {
+            bindings = <&to 3>;
+            key-positions = <31 33 32>;
+        };
+
+        HRmedia {
+            bindings = <&to 1>;
+            key-positions = <31 33 27 28 32 26>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
