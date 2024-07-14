@@ -14,27 +14,27 @@
 
         HRbase {
             bindings = <&to 0>;
-            key-positions = <27 28>;
+            key-positions = <16 15>;
         };
 
         HRgaming {
             bindings = <&to 4>;
-            key-positions = <28 27 26>;
+            key-positions = <14 15 16>;
         };
 
         HRnum {
             bindings = <&to 2>;
-            key-positions = <31 32>;
+            key-positions = <19 20>;
         };
 
         HRnav {
             bindings = <&to 3>;
-            key-positions = <31 33 32>;
+            key-positions = <19 20 21>;
         };
 
         HRmedia {
             bindings = <&to 1>;
-            key-positions = <31 33 27 28 32 26>;
+            key-positions = <19 20 21 14 15 16>;
         };
     };
 
