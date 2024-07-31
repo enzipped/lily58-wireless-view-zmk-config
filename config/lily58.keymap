@@ -34,7 +34,7 @@
 
         HRmedia {
             bindings = <&to 1>;
-            key-positions = <25 34>;
+            key-positions = <13 22>;
         };
     };
 
