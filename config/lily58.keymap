@@ -51,11 +51,11 @@
 
             display-name = "Base";
             bindings = <
-&trans        &trans  &trans  &trans        &trans        &trans                                                &trans         &trans     &to 5            &trans   &trans         &trans
-&kp TAB       &kp Q   &kp W   &kp F         &kp P         &kp B                                                 &kp J          &kp L      &kp U            &kp Y    &kp SEMICOLON  &kp MINUS
-&kp ESC       &kp A   &kp R   &kp S         &kp T         &kp G                                                 &kp M          &kp N      &kp E            &kp I    &kp O          &kp SQT
-&kp LEFT_WIN  &kp Z   &kp X   &kp C         &kp D         &kp V             &kp RIGHT_CONTROL    &kp RIGHT_ALT  &kp K          &kp H      &kp COMMA        &kp DOT  &kp FSLH       &kp EXCLAMATION
-                              &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT       &kp SPACE      &kp BACKSPACE  &kp ENTER  &kp PRINTSCREEN
+&kp ESCAPE      &trans  &trans  &trans        &trans        &trans                                                &trans         &trans     &to 5            &trans   &trans         &trans
+&kp TAB         &kp Q   &kp W   &kp F         &kp P         &kp B                                                 &kp J          &kp L      &kp U            &kp Y    &kp SEMICOLON  &kp MINUS
+&kp LEFT_SHIFT  &kp A   &kp R   &kp S         &kp T         &kp G                                                 &kp M          &kp N      &kp E            &kp I    &kp O          &kp SQT
+&kp LEFT_WIN    &kp Z   &kp X   &kp C         &kp D         &kp V             &kp RIGHT_CONTROL    &kp RIGHT_ALT  &kp K          &kp H      &kp COMMA        &kp DOT  &kp FSLH       &kp EXCLAMATION
+                                &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT       &kp SPACE      &kp BACKSPACE  &kp ENTER  &kp PRINTSCREEN
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -92,8 +92,8 @@
             display-name = "Raise";
             bindings = <
 &trans  &trans            &trans             &trans                &trans                 &trans                                         &trans         &trans     &trans           &trans     &trans          &trans
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH                                  &kp SLASH      &kp KP_N7  &kp KP_N8        &kp KP_N9  &kp KP_PLUS     &trans
-&trans  &kp PERCENT       &kp AT             &kp QUESTION          &kp EXCLAMATION        &kp ASTERISK                                   &kp KP_N0      &kp KP_N4  &kp KP_NUMBER_5  &kp KP_N6  &kp KP_EQUAL    &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH                                  &kp SLASH      &kp KP_N7  &kp KP_N8        &kp KP_N9  &kp KP_PLUS     &kp DOT
+&trans  &kp PERCENT       &kp AT             &kp QUESTION          &kp EXCLAMATION        &kp ASTERISK                                   &kp KP_N0      &kp KP_N4  &kp KP_NUMBER_5  &kp KP_N6  &kp KP_EQUAL    &kp COMMA
 &trans  &kp DOLLAR        &kp AMPERSAND      &kp HASH              &kp CARET              &kp GRAVE         &trans            &trans     &kp KP_MINUS   &kp KP_N1  &kp KP_N2        &kp KP_N3  &kp UNDERSCORE  &trans
                                              &kp LEFT_GUI          &kp LEFT_ALT           &kp LEFT_CONTROL  &kp LEFT_SHIFT    &kp SPACE  &kp BACKSPACE  &kp ENTER  &kp PRINTSCREEN
             >;
