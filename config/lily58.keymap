@@ -24,11 +24,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESCAPE        &trans  &trans  &to 4   &trans     &trans                                      &trans  &trans         &kp LS(LG(S))  &trans   &trans         &trans
-&kp TAB           &kp Q   &kp W   &kp F   &kp P      &kp B                                       &kp J   &kp L          &kp U          &kp Y    &kp SEMICOLON  &kp MINUS
-&kp LGUI          &kp A   &kp R   &kp S   &kp T      &kp G                                       &kp M   &kp N          &kp E          &kp I    &kp O          &kp SQT
-&kp LEFT_CONTROL  &kp Z   &kp X   &kp C   &kp D      &kp V   &kp RIGHT_CONTROL    &kp RIGHT_ALT  &kp K   &kp H          &kp COMMA      &kp DOT  &kp FSLH       &kp EXCLAMATION
-                                  &trans  &kp ENTER  &mo 1   &kp LEFT_SHIFT       &kp SPACE      &mo 3   &kp BACKSPACE  &trans
+&kp ESCAPE        &trans  &trans  &to 4   &trans              &trans                                      &trans  &trans         &kp LS(LG(S))  &trans   &trans         &trans
+&kp TAB           &kp Q   &kp W   &kp F   &kp P               &kp B                                       &kp J   &kp L          &kp U          &kp Y    &kp SEMICOLON  &kp MINUS
+&kp LGUI          &kp A   &kp R   &kp S   &kp T               &kp G                                       &kp M   &kp N          &kp E          &kp I    &kp O          &kp SQT
+&kp LEFT_CONTROL  &kp Z   &kp X   &kp C   &kp D               &kp V   &kp RIGHT_CONTROL    &kp RIGHT_ALT  &kp K   &kp H          &kp COMMA      &kp DOT  &kp FSLH       &kp EXCLAMATION
+                                  &trans  &mt LEFT_ALT ENTER  &mo 1   &kp LEFT_SHIFT       &kp SPACE      &mo 3   &kp BACKSPACE  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
