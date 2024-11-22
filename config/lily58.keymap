@@ -41,11 +41,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC       &trans  &trans  &trans  &trans        &trans                                                        &trans        &trans    &trans     &trans   &trans    &trans
-&kp TAB       &kp Q   &kp W   &kp F   &kp P         &kp B                                                         &kp J         &kp L     &kp U      &kp Y    &kp SEMI  &kp MINUS
-&kp LEFT_GUI  &kp A   &kp R   &kp S   &kp T         &kp G                                                         &kp M         &kp N     &kp E      &kp I    &kp O     &kp SQT
-&lt 4 LCTRL   &kp Z   &kp X   &kp C   &kp D         &kp V           &to 3                   &to 0                 &kp K         &kp H     &kp COMMA  &kp DOT  &kp FSLH  &trans
-                              &trans  &kp LEFT_ALT  &lt 2 KP_ENTER  &mt LEFT_SHIFT SPACE    &mt LEFT_SHIFT SPACE  &lt 1 DELETE  &kp BSPC  &trans
+&kp ESC       &trans  &trans  &trans  &trans        &trans                                             &trans        &trans    &trans     &trans   &trans    &trans
+&kp TAB       &kp Q   &kp W   &kp F   &kp P         &kp B                                              &kp J         &kp L     &kp U      &kp Y    &kp SEMI  &kp MINUS
+&kp LEFT_GUI  &kp A   &kp R   &kp S   &kp T         &kp G                                              &kp M         &kp N     &kp E      &kp I    &kp O     &kp SQT
+&lt 4 LCTRL   &kp Z   &kp X   &kp C   &kp D         &kp V           &to 3                   &to 0      &kp K         &kp H     &kp COMMA  &kp DOT  &kp FSLH  &trans
+                              &trans  &kp LEFT_ALT  &lt 2 KP_ENTER  &mt LEFT_SHIFT SPACE    &kp SPACE  &lt 1 DELETE  &kp BSPC  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
