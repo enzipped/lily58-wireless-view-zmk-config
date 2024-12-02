@@ -107,7 +107,7 @@
 &trans       &kp LC(Q)   &kp LC(W)   &kp LC(E)   &kp LC(R)     &kp LC(T)                                   &kp LC(Y)   &kp LC(U)   &kp LC(I)      &kp LC(O)    &kp LC(P)     &kp LC(MINUS)
 &trans       &kp LC(A)   &kp LC(S)   &kp LC(D)   &kp LC(A)     &kp LC(G)                                   &kp LC(H)   &kp LC(J)   &kp LC(K)      &kp LC(L)    &kp LC(SEMI)  &kp LC(ENTER)
 &trans       &kp LC(Z)   &kp LC(X)   &kp LC(C)   &kp LC(V)     &kp LC(B)   &kp LC(LBKT)      &kp LC(RBKT)  &kp LC(N)   &kp LC(M)   &kp LC(COMMA)  &kp LC(DOT)  &kp LC(FSLH)  &kp LC(RSHFT)
-                                     &trans      &kp LEFT_ALT  &trans      &kp LEFT_SHIFT    &kp SPACE     &trans      &kp RALT    &kp RGUI
+                                     &trans      &kp LEFT_ALT  &kp LCTRL   &kp LEFT_SHIFT    &kp SPACE     &trans      &kp RALT    &kp RGUI
             >;
         };
     };
